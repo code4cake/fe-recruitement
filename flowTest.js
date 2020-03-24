@@ -5,4 +5,4 @@ const add = (a: number, b: number): number => {
 }
 
 add(1, 2) // 3
-add('a', 2) // FlowError
+add('a', 2) // => FlowError
