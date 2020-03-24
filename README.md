@@ -25,6 +25,7 @@ Some useful custom scripts are :
 - `flow` => runs `flowjs` for typechecking
 - `flow:coverage` => checks for `flowjs` coverage
 - `flow:stop` => stops `flowjs` server
+- `flow:typed` => installs `flowtype` def for dependencies
 
 There are many other, so just run `yarn run` to see all available scripts.
 
