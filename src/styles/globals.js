@@ -58,5 +58,8 @@ export const CardArticle = styled.article`
 export const Button = styled.button`
   background-color: ${(props) => props.btnColor || colors.yellow};
   color: ${(props) => props.textColor || colors.blue};
-  border-radius: 5px;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
 `
