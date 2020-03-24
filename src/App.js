@@ -1,18 +1,7 @@
-import React, { Component } from "react";
-import { ApolloProvider } from "react-apollo";
-import styled from "styled-components";
-import client from "./graphql";
-
-const Logo = styled.img`
-  display: block;
-  margin: 0 auto;
-  max-width: 200px;
-`;
-
-const Container = styled.div`
-  max-width: 980px;
-  margin: 0 auto;
-`;
+import React, { Component } from 'react'
+import { ApolloProvider } from 'react-apollo'
+import client from './api/graphql'
+import { Container, Logo } from './styles/globals'
 
 class App extends Component {
   render() {
@@ -24,8 +13,8 @@ class App extends Component {
           <div>BUILD YOUR APP here</div>
         </Container>
       </ApolloProvider>
-    );
+    )
   }
 }
 
-export default App;
+export default App

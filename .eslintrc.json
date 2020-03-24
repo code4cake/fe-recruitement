@@ -1,0 +1,34 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "react-app",
+    "prettier",
+    "prettier/react",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "plugins": ["prettier", "graphql", "jest-dom", "react-hooks", "flowtype"],
+  "env": {
+    "es6": true,
+    "jest": true,
+    "browser": true
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotations": true
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extensions": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "prettier/prettier": "warn"
+  }
+}

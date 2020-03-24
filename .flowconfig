@@ -1,0 +1,20 @@
+[ignore]
+<PROJECT_ROOT>/__tests__/.*
+<PROJECT_ROOT>/api/.*
+
+[include]
+
+[untyped]
+
+[libs]
+flow-typed/
+
+[lints]
+
+[strict]
+
+[options]
+module.name_mapper='^\([^\.].*\)$' -> '<PROJECT_ROOT>/src/\1'
+
+[version]
+^0.121.0
