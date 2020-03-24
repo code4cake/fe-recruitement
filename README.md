@@ -35,7 +35,9 @@ There are many other, so just run `yarn run` to see all available scripts.
 
 - The `<Search />` autocomplete with `DownShift` was another hiccup. I have added the code, but it's not hooked up to the app, since was stumbling on the filtering.
 
-  - [ ] I would have added a `filter` argument on the backend to filter by `name` on the `Pokemons API`, but that would had created more work on the BackEnd 🤔. Maybe using the `Apollo` `@client` argument instead, but did't have time to try it.
+**Uncomment the `<Search />` inside `<App />` to see**
+
+- [ ] I would have added a `filter` argument on the backend to filter by `name` on the `Pokemons API`, but that would had created more work on the BackEnd 🤔. Maybe using the `Apollo` `@client` argument instead, but did't have time to try it.
 
 ## Todo 🚨
 
